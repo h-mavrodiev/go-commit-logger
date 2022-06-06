@@ -1,2 +1,7 @@
 # go-commit-logger
-A JSON over HTTP commit logger service written in Go.
+A gRPC commit logger service written in Go.
+    Record—the data stored in our log.
+    Store—the file we store records in.
+    Index—the file we store index entries in.
+    Segment—the abstraction that ties a store and an index together.
+    Log—the abstraction that ties all the segments together.

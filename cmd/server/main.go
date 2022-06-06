@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/h-mavrodiev/go-commit-logger/internal/server"
+	server "github.com/h-mavrodiev/go-commit-logger/internal/server_prototype"
 )
 
 func main() {
